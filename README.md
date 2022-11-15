@@ -25,7 +25,7 @@ The LIBERARY MANAGMENT SYSTEM was initialted and the doctypes were created, besi
 This took us 3 days.
 
 ### Day-6 (4-8-2022)
-Today i go through the some steps of Library Management and implement in frameframework.
+Today i go through the some steps of Library Management and implement in frappeframework.
 
 ### Day-7 (5-8-2022)
 Today i am completed the frappe Library Management and view the articles and articles list on web pages.
@@ -50,7 +50,7 @@ Today i am also working on FET and tried to generate the timetable using random 
 Today I have successfully generate the time table and also shown to Rai sir but he told me that use `import` and `export` data commands and learn its documentation.
 
 ### Day-15 (13-8-2022)
-Lisening all the presenation given by other GD members.
+Listening all the presenation given by other GD members.
 
 ### Day-16 (15-8-2022)
 Learing about `import` and `export` commands. Rai sir given me one google sheet which contains the real data of civil department and told me that generates its timetable.
@@ -58,7 +58,44 @@ Learing about `import` and `export` commands. Rai sir given me one google sheet 
 ### Day-17 (16-8-2022)
 Today i have generated the civil department timetable then rai sir said me find that where all these files stored and where its source code is present.
 
-### day-18 (17-8-2022)
+### Day-18 (17-8-2022)
+Learing about `import` and `export` commands. Rai sir given me one google sheet which contains the real data of civil department and told me that generates its timetable.
+I have found that where source code is present and then rai sir said that also find now if once timetable is generated  after that we change some infomation in its csv files ,is it also reflect in generated timetable or not?
+ 
+### Day-19 (18-8-2022)
+Today i have started working on rai sir task but after done all testing i have reached that thers is not reflect of modify information in generated timetable and wanted to modify then generate the same timetable again.
+
+### Day-20 (19-8-20222)
+Today was my task to enable the `Level-5` or `Level-7`. `Level-2` is by default set. 
+`Level-7` is used to highlight the words. Till evening i have enables it successfully.
+
+### Day-21 (20-8-2022)
+Today's in morning Rai sir told me again now without using GUI of `FET` software generate the timetable. On the backend fet will run and takes the csv files (user will upload) and genearate the timetable in the backend and give the link of generated timetbale as a output.
+
+### Day-22 (22-8-2022)
+Today Satinder sir given me work of moodle.I have to created a Courses cateogries there using CSV files of NSPS.
+
+### Day-23 (23-8-2022)
+I have done one blunder mistake while creating the course categories which is told by satinder sir to me and said create the categories of courses again.
+
+### Day-24 (24-8-2022)
+I have created all the courses again and also putt the subjects in each category.This task took complete one day.
+
+### Day-25 (25-8-2022)
+Today Satinder sir given a task to me and jasjit to find the information from database regarding to the NSPS grade report. A grade report is contains the fields of `Name of course` , `Email address` , `Course grade` etc.
+
+### Day-26 (26-8-2022)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
