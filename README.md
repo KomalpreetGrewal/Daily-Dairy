@@ -90,27 +90,47 @@ Today we learnt first about the sql queries and watched one tutorial for it and 
 ### Day-27 (27-8-2022)
 Finally we took our first step towards the task. To complete the task (grade report),firstly i install local moodle on my system and it take some time.Then i started working on it and explore the feature of it ,because it was my first time to do something on moodle.
 
-### Day-28 (28-8-2022)
+### Day-28 (29-8-2022)
 In order to accomplished our task ,we need user(student) name,grade,id,couse name.So start exploring the moodle database to get the valuses from the moodle database tables.
 
 mdl_grade_grades: In this table we get the id,rawgrademax,finalgrade.
 mdl_user: In this table we get the firstname of user,last name of user,username.
 mdl_course: In this we get id of course,fullname,shortname.
 
-### Day-29 (29-8-2022)
+### Day-29 (30-8-2022)
 Today we had a discussion with our mentor releted the values and we set the final table ,to make single final query. The final table that we have to make contain the feild of uasername,firstname,lastname,course name,id.
 
-### Day-30 (30-8-2022)
+### Day-30 (31-8-2022)
 We succesfilly make the query with the help of Satinder sir, and at last sir tell us to check the final output, is it was actually meet with our requirement. At that time it was correct but when we test it by adding more courses then it was not giving the update couse and update grade of user.
 
-### Day-31 (31-8-2022)
+### Day-31 (1-9-2022)
 Today i had a task to resolve the problem. For that i took help from my other training friends. We all start working on it and also finding the solution with diffrent diffrent approaches.
 
-### Day-1 (1-9-2022)
+### Day-32 (2-9-2022)
 Today i went to satinder sir to discuss the problem. Sir gave some idea about it we again start to working on it and applied several queries but didn't work anything till evening.
 
 
-### Day-2 (2-9-2022)
+### Day-33 (3-9-2022)
+On this day i try below query-
+
+`SELECT u.firstname , u.lastname , u.email , u.username, c.fullname as course_name,  
+ROUND(gg.finalgrade,2) Grade, concat(uo.url, c.id) as url FROM mdl_course AS
+c JOIN  url_of_course AS uo JOIN mdl_context AS ctx ON c.id = ctx.instanceid 
+JOIN mdl_role_assignments AS ra ON ra.contextid = ctx.id JOIN mdl_user 
+AS u ON u.id = ra.userid JOIN mdl_grade_grades AS gg ON gg.userid = u.id JOIN 
+mdl_grade_items AS gi ON gi.id = gg.itemid JOIN mdl_course_categories 
+AS cc ON cc.id = c.category WHERE gi.courseid = c.id AND gi.itemtype = 'course';`
+
+It executed successfully getting the final output which mathes with requirements.
+
+### Day-34 (4-9-2022)
+After this having a task to put the incremental backup so that automatically values will be fetched from the database and update on moodle (gradebook) respectively.
+
+### Day-35 (5-9-2022)
+Today i have a task to learnt about the incemental backup. For that i refers some tutorial from youtube and followed them. I learnt of its importance and significance.
+
+### Day-36 (6-9-2022)
+
 
 
 
