@@ -85,10 +85,32 @@ I have created all the courses again and also putt the subjects in each category
 Today Satinder sir given a task to me and jasjit to find the information from database regarding to the NSPS grade report. A grade report is contains the fields of `Name of course` , `Email address` , `Course grade` etc.
 
 ### Day-26 (26-8-2022)
+Today we learnt first about the sql queries and watched one tutorial for it and explore about the general log file and error log file along what is the importance over all of these files. After wacthed the tutorial got some idea and executed some queries.
+
+### Day-27 (27-8-2022)
+Finally we took our first step towards the task. To complete the task (grade report),firstly i install local moodle on my system and it take some time.Then i started working on it and explore the feature of it ,because it was my first time to do something on moodle.
+
+### Day-28 (28-8-2022)
+In order to accomplished our task ,we need user(student) name,grade,id,couse name.So start exploring the moodle database to get the valuses from the moodle database tables.
+
+mdl_grade_grades: In this table we get the id,rawgrademax,finalgrade.
+mdl_user: In this table we get the firstname of user,last name of user,username.
+mdl_course: In this we get id of course,fullname,shortname.
+
+### Day-29 (29-8-2022)
+Today we had a discussion with our mentor releted the values and we set the final table ,to make single final query. The final table that we have to make contain the feild of uasername,firstname,lastname,course name,id.
+
+### Day-30 (30-8-2022)
+We succesfilly make the query with the help of Satinder sir, and at last sir tell us to check the final output, is it was actually meet with our requirement. At that time it was correct but when we test it by adding more courses then it was not giving the update couse and update grade of user.
+
+### Day-31 (31-8-2022)
+Today i had a task to resolve the problem. For that i took help from my other training friends. We all start working on it and also finding the solution with diffrent diffrent approaches.
+
+### Day-1 (1-9-2022)
+Today i went to satinder sir to discuss the problem. Sir gave some idea about it we again start to working on it and applied several queries but didn't work anything till evening.
 
 
-
-
+### Day-2 (2-9-2022)
 
 
 
