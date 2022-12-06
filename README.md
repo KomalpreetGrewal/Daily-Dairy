@@ -257,12 +257,14 @@ We successfully created a quotation. Now we are going to create a `sales order` 
 ### Day-89 (3-11-2022)
 we can update the `quotation values` in the `Estimate table`. For this sdo will click on a button named `Quotation/Estimate` in the cmc request form and redirect to the quotation form. And then the Estimate table values will be autofetch from the quotation table.
 
-### Day-90 (4-11-2022)
+### Day-90 (4-11-2022) - Day 103 (13-11-2022)
+During this period i have updated the timetbales of Nankana Sahib Public School. Add `new teachers` and updated their `course` respectively too.
+Uploaded 11 and 12 class students on gne1.gndec.ac.in
 
+### Day-104 (15-11-2022)
+Today i have learned how to make `connection` in doctype.
 
-
-
-
+### Day-105 (16-11-2022)
 
 
 
