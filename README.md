@@ -181,6 +181,55 @@ Today i am going to implement `stock` items in erp.gndec.ac.in and also creating
 Today We are going to add `stock items` to erp.gndec.ac.in and make a dashboard for SDE which is only visible to SDE.
 
 ### Day-57 (2-10-2022)
+Today we have to fullfil the requirement that are pending also done disscussion with Rai sir.
+I changed the Nature of work according to the requirements.
+
+### Day-58 (3-10-2022)
+`Estimate work`is done on erp.gndec.ac.in according to the requirements.
+
+### Day-59 (4-10-2022)
+Today i've checked if we select `items` for `estimate` then it will also reduces in stock.
+Now our task is to create a `button` in the CMC request form for `SDE` only in which SDE will manage the realtime stock items.
+
+### Day-60 (5-10-2022)
+We have two options:
+`First`: We can add a custom button in the cmc request form using the form script. 
+The link which is following is: https://frappeframework.com/docs/v13/user/en/api/form But here we have an issue of permissions. Because Custom button is not a field in a doctype and in my knowledge we are only able to gives permissions to doctype fields to show that fields to some specific users so here.
+
+So we are going towards the `second` option is:-
+We can create a field which is of type `Button`. I know this is a silly question but how can we add links behind the Button type fields in frappe?? I searched this on Google and found that we need to write custom scripts to make this button working. But I didn't get the correct syntax for this.
+
+### Day-61 (6-10-2022)
+we have checked that if we select items for estimate then it will also reduces in stock. So when our stock becomes completely empty then we need to send quotations for required items. So now our next task is to send quotations and restore our stock again.
+
+### Day-62 (7-10-2022)
+Today have a task to do a `Company Setup`. So i am going to do the company setup. The company which are going to create is `Manufacturing company`.
+
+### Day-63 (8-10-2022)
+Our Company name is `Unique Number Ltd` under Domain `Manufacturing`.
+Company (Unique Number Ltb) is successfully created on gne2. Our next step is to define `tax` of a company under the section of `chart of account`.
+
+### Day-64 (9-10-2022)
+In the section of `Chart and Account` , we select our company and come under the `source of funds` section . Here we do some changes in the CGST and SGST according to requirements which come under the Duties and Taxes.
+
+### Day-65 (10-10-2022)
+we have created incoming CGST and incoming SGST under Application of assets section in the chart of accounts for buying purposes and defined CGST and SGST under Source of funds section for selling purpose.
+
+### Day-66 (11-10-2022)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
