@@ -212,16 +212,52 @@ Company (Unique Number Ltb) is successfully created on gne2. Our next step is to
 ### Day-64 (9-10-2022)
 In the section of `Chart and Account` , we select our company and come under the `source of funds` section . Here we do some changes in the CGST and SGST according to requirements which come under the Duties and Taxes.
 
-### Day-65 (10-10-2022)
-we have created incoming CGST and incoming SGST under Application of assets section in the chart of accounts for buying purposes and defined CGST and SGST under Source of funds section for selling purpose.
+### Day-65 (10-10-2022) - (12-10-2022)
+we have created incoming CGST and incoming SGST under Application of assets section in the chart of accounts for buying purposes and defined CGST and SGST under Source of funds section for selling purpose. We need to create a `journal entry` to show the amount in the chart of accounts. But when we make a general entry it shows the error which says set the fiscal year first.
+In this we firstly add the sales order which include the information about the customer,item and delivery date.
+Sales Invoice done.Payment of this order is also done
 
-### Day-66 (11-10-2022)
+### Day-66 (13-10-2022)
+`Dashboard` for principal is created on erp.gndec.ac.in after this we disscussed the project with sir and there many thing which are need to be add in the project.
 
+### Day-69 (14-10-2022)
+`new request` button in cmc request. item name in estimate automatically fetched. Tasks are accomplished.
 
+### Day-70 (15-10-2022)
+`Sorting complaint` number in my requests. Tasks is completed.
 
+### Day-71 (16-10-2022)
+We (Me and Jasjit) are going to make `new departments` which are left and will also update the csv file accordingly and upload it in erp.gndec.ac.in.
 
+### Day-72 (17-10-2022)
+`Employees` also created successfully.On erp.gndec.ac.in
+Task was completed. 
+Image size limit can change as we tested on gne2.gndec.ac.in. It can be changed through the backend. To change the image size limit, go to `sites` and open `common_site_config.json`.Change `max_file_size`: 500000.
 
+### Day-73 (18-10-2022)
+Working on `Home page`.I added a `nav bar`(About, Departments, Notice board, Faculties).
 
+### Day-74 (19-10-2022)
+Working on `Education Domain`.
+I worked on education domain and done more task of project regarding the `Student Enrollment`. Firstly understood the whole process and had a meeting with sir.
+
+### Day-75 (20-10-2022)
+Understand the `Fee structure` in Edcation Domain and `Student Enrollment Process`.
+
+### Day-76 (21-10-2022) - Day-86 (30-10-2022)
+Create `courses` in the `Education domain`.Create Fee structure (Fee component, Student Category, Program) and add student and instructor in the list.
+
+### Day-87 (1-11-2022)
+Today Rai sir told us to replace the `Estimate by quotation`.
+Our approach is that we will create a button named `quotation estimate` which will be shown to the SDE with the help of this button, SDE will be able to handle `quotations(Estimate)`, `sales order`, `sales invoice(Bill)`.
+
+### Day-88 (2-11-2022)
+We successfully created a quotation. Now we are going to create a `sales order` of quotations, in which we add our items which are require and here we also apply a `Tax on items` also add discounts on them.
+
+### Day-89 (3-11-2022)
+we can update the `quotation values` in the `Estimate table`. For this sdo will click on a button named `Quotation/Estimate` in the cmc request form and redirect to the quotation form. And then the Estimate table values will be autofetch from the quotation table.
+
+### Day-90 (4-11-2022)
 
 
 
