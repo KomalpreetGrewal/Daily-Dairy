@@ -174,10 +174,15 @@ According to the information we have uploaded the `courses` and `user` on the gn
 ### Day-49 (24-9-2022) - Day 54 (29-9-2022)
 Working on gne1.gndec.ac.in and visit the school regulary. Solves the teachers problems, help them to access the gne1.gndec.ac.in and how to add the activity in it and turm the edit mode on to do some work.
 
-### Day-50 (30-9-2022)
+### Day-55(30-9-2022)
 Today i am going to implement `stock` items in erp.gndec.ac.in and also creating a `dashboard of SDE` which is only visible to `SDE` only.
 
-### Day-51 (1-9-2022)
+### Day-56 (1-10-2022)
+Today We are going to add `stock items` to erp.gndec.ac.in and make a dashboard for SDE which is only visible to SDE.
+
+### Day-57 (2-10-2022)
+
+
 
 
 
