@@ -154,8 +154,30 @@ In the web form, "justification for request" field needs to be optional, not man
 ### Day-43 (18-9-2022)
 Today, I have worked on Dashboard with the help of one traning member. Start learning about the Dashboard and make test dashboard. Becauses ,I have a task to make a Dadboard of all Higher Authorities like `SDO`, `CMC -Head`, `HOd's` of all Departments.
 
+### Day-44 (19-9-2022)
+Today we are working on the `workflow` of CMC project. We made the flowchart of CMC Project.
+Steps: student | employee -> HoD -> SDO -> O/Ic Incharge
+But there migh be Student -> Caretaker -> Warden -> SDO or Lab Attendant | Lab Technician -> Lab Incharge -> HoD ... In case of rejected, all must see the status, and in case of any additional query it may be sent back from where is was forwarded.
 
+### Day-45 (20-9-2022)
+Today i worked with Satinderpal sir , sir said us to make a `courses` on `guru.gndec.ac.in`. So we make it on the site.
 
+### Day-46 (21-9-2022)
+Solved the problem regarding the `moodle` like user are not enroll in the courses and their attebdance.
+
+### Day-47 (22-9-2022)
+Beside the CMC project I also work on the `NSPS project` (School project) .Firstly we visit the school and get the information about the courses or subject and teacher or student data of school.
+
+### Day-48 (23-9-2022)
+According to the information we have uploaded the `courses` and `user` on the gne1.gndec.ac.in  which is official `moodle site` of School.
+
+### Day-49 (24-9-2022) - Day 54 (29-9-2022)
+Working on gne1.gndec.ac.in and visit the school regulary. Solves the teachers problems, help them to access the gne1.gndec.ac.in and how to add the activity in it and turm the edit mode on to do some work.
+
+### Day-50 (30-9-2022)
+Today i am going to implement `stock` items in erp.gndec.ac.in and also creating a `dashboard of SDE` which is only visible to `SDE` only.
+
+### Day-51 (1-9-2022)
 
 
 
