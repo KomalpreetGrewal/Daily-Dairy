@@ -130,9 +130,29 @@ After this having a task to put the incremental backup so that automatically val
 Today i have a task to learnt about the incemental backup. For that i refers some tutorial from youtube and followed them. I learnt of its importance and significance.
 
 ### Day-36 (6-9-2022)
+Today @HS Rai sir give one task to me that we have to do some work on QT(Qt is cross-platform software for creating graphical user interfaces as well as cross-platform applications that run on various software and hardware platforms such as Linux, Windows). The first we have to learn about the QT how to use it and how it work. For this i install it in my system and start exploring about it.
 
+### Day-37 (7-9-2022)
+Then we install QT creator in which we write our program to create the GUI.Qt Creator creates several files for you. The HelloWorld.qmlproject file is the project file, where the relevant project configuration is stored. This file is managed by Qt Creator, so don’t edit it yourself. Another file, HelloWorld.qml, is our application code. Open it and try to understand what the application does before you read on.
 
+### Day-38 (8-9-2022)
+In this period we learn about the QT and run a simple program (Hello) on it.
+Beside this i am also workinfg on to get the user data from database. The question was that how to fetch the data from two table in mysql database. Because we have to fetch the user name and corresponding courses which are stored in two different tables.
 
+### Day-39 (14-9-2022)
+Today We start a new Project named CMC( Construction & Maintenance Cell). First of all we need to understand the structure of CMC, The CMC will be a company under NSET, parallel to GNDEC. In my opinion it must be a service based company, what is your opinion, and other domains available. It will have sales, purchase, stock, accounting etc.So, It is a service based company. 
+
+### Day-40 (15-9-2022)
+Create a company at gne2 and set its domain to service. We will test over gne2. But We have a maintenance module.Here we can make others doctype related to maintenance.So, the Company Name : Construction & Maintenance Cell, Parent Company : NSET, Domain Name : Services.
+
+### Day-41 (16-9-2022)
+Create a dashboard for the maintenance request. In which cmc user see the requests by date wise and see no. of requests per day.
+
+### Day-42 (17-9-2022)
+In the web form, "justification for request" field needs to be optional, not mandatory. And it needs to be "draft" upto the level of HoD, which means that HoD/OIc/Caretaker/Warden will be able to change it. No change will took place once the higher authority forwarded the request.
+
+### Day-43 (18-9-2022)
+Today, I have worked on Dashboard with the help of one traning member. Start learning about the Dashboard and make test dashboard. Becauses ,I have a task to make a Dadboard of all Higher Authorities like `SDO`, `CMC -Head`, `HOd's` of all Departments.
 
 
 
