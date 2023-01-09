@@ -1,6 +1,6 @@
 # Daily-Dairy
 
-6-Month Traning under Software Development Centre
+##                                           6-Month Industrial Traning under Software Development Centre
 
 ### Day-1 (29-7-2022)
 
@@ -367,7 +367,50 @@ There are a lot more cryptocurrency are there like ethereum , Dogecoin etc.
 
 Attending all other GD members' seminars.
 
-### Day-109 (20-11-2022)
+### Day-109 (12-12-2022)
+
+Today our traning mentor gave me a new task to generate the certificates throught frappe. They provided some requirements so currently searching about that. Requirements are given : 
+1. Traninee can generate their certificate only then if they have permission to generate.
+2. Any user firslty fill the traning_form which will be web form actually.
+3. When user will fill the form then response will go the Traning mentor and traning mentor will decide based on provided information.
+4. user will login with ```Login with LDAP``` option.
+
+### Day-110 (13-12-2022)
+
+I have made a ```doctype``` which contains all the mandatory fields related to the student information like student name , Branch , Uni roll , Program , Year , Institute name , Training type , Training company , Interest Area etc. In the database where these values are stored by fetching that we will generate one Certificate where all these values should automatically come on their right place in the certificate.
+
+### Day-111 (14-12-2022)
+
+When I was making Training Certificate doctype on gne12.gndec.ac.in while that gne12.gndec.ac.in was in production mode therefore doctype
+was not saving in the backend.I changed it in developer mode but still it is not saving in the backend. After that i tried to make a duplicate doctype but it is not saving getting below error
+
+ " DocType Trainees Certificates not find
+The resource you are looking for is not available "
+
+#### Day-112 (15-12-2022)
+
+I fixed the error that was going to happen yesterday today.The domain of doctype was causing an error.We must choose the domain in which the doctype will be saved while creating it.Next step i took forward towards the project which is that create a new doctype with all mandatory information which contains all mandatory information regarding trainees. I created a webform of this doctype, which is filled out by the instructor when students express a desire to join the SDC training. The student will then be eligible for a certificate at the end of the training.For that, we have created a webpage with the name "trainees. We created a webform of this doctype, which is filled out by the instructor when students express a desire to join the SDC training. then at the end of the training, the student will be eligible to get a certificate. For that, we have created a webpage with the name "Certificates." The instructor will generate the certificate by clicking on "Certificate" in the /me directory. It will generate the certificate for the respective trainee automatically.
+
+
+### Day-113 (16-12-2022)
+
+Someone tested it and provided feedback and suggestions. I am working on the best suggestions to improve the certificate, such as changing the certificate template and so on.
+
+
+### Day-114 (17-12-2022)
+
+Today I found some ```templates``` for certificates and also added some additional information.
+
+
+### Day-115 (24-12-2022)
+
+
+
+
+
+
+
+
 
 
 
