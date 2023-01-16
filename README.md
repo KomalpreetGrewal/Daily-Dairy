@@ -394,13 +394,15 @@ Solution:-For this we fetch the total cost of quotation in the Sales
 
 Invoice doctype and add the following client script in it.
 
-```frappe.ui.form.on('Sales Invoice', {
+
+frappe.ui.form.on('Sales Invoice', {
     refresh(frm) {
         if (frm.doc.grand_total > frm.doc.quotation_total) {
         frappe.msgprint('Your Total Cost exceeding the Estimate Cost!!!')
 }
     }
-})```
+})
+
 
 ### Day-113 (24-11-2022)
 
