@@ -367,7 +367,153 @@ There are a lot more cryptocurrency are there like ethereum , Dogecoin etc.
 
 Attending all other GD members' seminars.
 
-### Day-109 (12-12-2022)
+### Day-109 (20-11-2022)
+
+We add the custom script in Quotation doctype.( Grand Total = total_cost+ labour cost).
+After that we discussed with Rai Sir in the evening meeting that there is no need to customize the quotation doctype.
+Instead of this I add some services in the item list and delete the customization that I made on quotation doctype.
+Pending work:- When total_cost(in Quotation)>total_cost(in Bill) then it shows an alert message.
+
+### Day-110 (21-11-2022)
+
+Finish 10% of Saturday's pending work which is When total_cost(in Quotation)>total_cost(in Bill) then it shows an alert message.
+If this task is finished on time then after that I have another task to understand the whole chat app like how its work, doctypes created and the logic behind all the stuff.
+
+### Day-111 (22-11-2022)
+
+Only first task is completed and the second task is pending.
+
+### Day-112 (23-11-2022)
+
+In the CMC Project we want the linking of Quotation,Sales Order and Sales Invoice with the CMC Request.
+Solution:- We added one field(CMC Request no.) in the all the doctypes(Sales invoice, Sales Order and quotation) and fetched the CMC Request No. automatically.For this we use the connections.
+
+When total_cost(in Quotation)>total_cost(in Bill) then it shows an alert message.
+
+Solution:-For this we fetch the total cost of quotation in the Sales
+
+Invoice doctype and add the following client script in it.
+
+```frappe.ui.form.on('Sales Invoice', {
+    refresh(frm) {
+        if (frm.doc.grand_total > frm.doc.quotation_total) {
+        frappe.msgprint('Your Total Cost exceeding the Estimate Cost!!!')
+}
+    }
+})```
+
+### Day-113 (24-11-2022)
+
+Today my work is to create a web page for the erp.gndec.ac.in
+For this I click the photos of college campus
+From the Image I create a homepage of erp.gndec.ac.in
+
+### Day-114 (25-11-2022)
+
+Today I helped veerpal in fetching the department in notice board.
+Find the appropriate solution for the error(multi_currency error) which we get while creating the invoice.
+I am unnle to find the solution of that.
+
+### Day-115 (26-11-2022)
+
+While doing this task I find a answer of a question which was asked by the Rai Sir.
+The question is can we create a doctype without storing the data in the backend.
+The answer is yes if we select "is virtual" option in doctype.
+
+### Day-116 (27-11-2022)
+
+Sunday
+
+### Day-117 (28-11-2022)
+
+Add one user ( CMC CLERK ) which will handle the work after the estimate approved by cmc.
+Like : sales order, Bill generation and so on.
+One more requirement added by satinder sir :
+According to our need we modified the quotation doctype.
+Currently our problem is resolved.
+In future if we send the quotation for the college purpose we can face some difficultie
+
+### Day-118 (29-11-2022)
+
+Today I successfully create all the daily diary project on gne5.gndec.ac.in
+
+### Day-119 (30-11-2022)
+
+Today I am trying to solve the error multi_currency error.
+Our whole CMC Project is pending due to this project.
+I compare both doctypes in gne12 and on erp.
+From this we found a solution to delete this option from backend.
+After that bill generation works fine.
+
+### Day-120 (1-12-2022)
+
+Today Me and Simran trying to upload the instructors on gne5.gndec.ac.in
+When I try to upload the list of Instructors I want to upload more than one program and course of the respective instructor but in one list I can upload only one course and program.
+In this satinder sir gave an advice to first export the instructor file and then you try to upload that file.
+
+### Day-121 (2-12-20.
+
+### Day-125 (6-12-2022)
+
+Discussed the questions asked in the quiz.
+Try to find the solution of all of them
+Also try if there is any wrong question.
+
+### Day-126 (7-12-2022)
+
+In the CMC Project we need the department of every employee.
+So we created the deaprtments of college.
+Also assign roles to different employees.
+
+### Day-12722)
+
+Today we tried the solution asked by the satinder sir but it didn't work.
+Finally I found the solution for this.
+We can upload the Instructor with the following format.
+https://github.com/Simranjeet7860/Demo-Image/blob/main/Screenshot%20from%202022-12-02%2013-43-45.png
+
+### Day-122 (3-12-2-2022)
+
+Today we import all the instructor on the erp.gndec.ac.in
+
+### Day-123 (4-12-2022)
+
+Sunday
+
+### Day-124 (5-12-2022)
+
+Today all the trainees prepeared for the exam.
+In the evening there is an exam related to frappe framework.
+
+### Day-125 (6-12-2022)In the CMC Project we need the department of every employee.
+So we created the deaprtments of college.
+Also assign roles to different employees
+
+Discussed the questions asked in the quiz.
+Try to find the solution of all of them
+Also try if there is any wrong question.
+
+### Day-126 (7-12-2022)
+
+In the CMC Project we need the department of every employee.
+So we created the deaprtments of college.
+Also assign roles to different employees.
+
+### Day-127 (8-12-2022)
+
+Today I tried to answer the Rai Sir question.
+The question is can we initialize different bench folders on different ports.
+For this I tried to install the frape V13 in my local.
+
+### Day-128 (9-12-2022)-(10-12-2022)
+
+On Leave.
+
+### Day-129 (11-12-2022)
+
+Sunday 
+
+### Day-130 (12-12-2022)
 
 Today our traning mentor gave me a new task to generate the certificates throught frappe. They provided some requirements so currently searching about that. Requirements are given : 
 1. Traninee can generate their certificate only then if they have permission to generate.
@@ -375,11 +521,11 @@ Today our traning mentor gave me a new task to generate the certificates through
 3. When user will fill the form then response will go the Traning mentor and traning mentor will decide based on provided information.
 4. user will login with ```Login with LDAP``` option.
 
-### Day-110 (13-12-2022)
+### Day-131 (13-12-2022)
 
 I have made a ```doctype``` which contains all the mandatory fields related to the student information like student name , Branch , Uni roll , Program , Year , Institute name , Training type , Training company , Interest Area etc. In the database where these values are stored by fetching that we will generate one Certificate where all these values should automatically come on their right place in the certificate.
 
-### Day-111 (14-12-2022)
+### Day-132 (14-12-2022)
 
 When I was making Training Certificate doctype on gne12.gndec.ac.in while that gne12.gndec.ac.in was in production mode therefore doctype
 was not saving in the backend.I changed it in developer mode but still it is not saving in the backend. After that i tried to make a duplicate doctype but it is not saving getting below error
@@ -387,22 +533,27 @@ was not saving in the backend.I changed it in developer mode but still it is not
  " DocType Trainees Certificates not find
 The resource you are looking for is not available "
 
-#### Day-112 (15-12-2022)
+#### Day-133 (15-12-2022)
 
 I fixed the error that was going to happen yesterday today.The domain of doctype was causing an error.We must choose the domain in which the doctype will be saved while creating it.Next step i took forward towards the project which is that create a new doctype with all mandatory information which contains all mandatory information regarding trainees. I created a webform of this doctype, which is filled out by the instructor when students express a desire to join the SDC training. The student will then be eligible for a certificate at the end of the training.For that, we have created a webpage with the name "trainees. We created a webform of this doctype, which is filled out by the instructor when students express a desire to join the SDC training. then at the end of the training, the student will be eligible to get a certificate. For that, we have created a webpage with the name "Certificates." The instructor will generate the certificate by clicking on "Certificate" in the /me directory. It will generate the certificate for the respective trainee automatically.
 
 
-### Day-113 (16-12-2022)
+### Day-134 (16-12-2022)
 
 Someone tested it and provided feedback and suggestions. I am working on the best suggestions to improve the certificate, such as changing the certificate template and so on.
 
 
-### Day-114 (17-12-2022)
+### Day-135 (17-12-2022)
 
 Today I found some ```templates``` for certificates and also added some additional information.
 
 
-### Day-115 (24-12-2022)
+### Day-115 (18-12-2022)-(25-12-2022)
+
+Certificates work has been accomplished.
+
+
+
 
 
 
